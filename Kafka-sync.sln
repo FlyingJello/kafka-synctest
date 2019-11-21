@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webapi", "Webapi\Webapi.csproj", "{9F1EC412-10E3-496A-9DF2-73E7CFBEAEDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Userservice", "Userservice\Userservice.csproj", "{8D29C828-B8EB-4F65-ABA2-8DE166FBFF5C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{113DE87E-14BA-4362-A1C4-7CA2002191C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F1EC412-10E3-496A-9DF2-73E7CFBEAEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1EC412-10E3-496A-9DF2-73E7CFBEAEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1EC412-10E3-496A-9DF2-73E7CFBEAEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1EC412-10E3-496A-9DF2-73E7CFBEAEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D29C828-B8EB-4F65-ABA2-8DE166FBFF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D29C828-B8EB-4F65-ABA2-8DE166FBFF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D29C828-B8EB-4F65-ABA2-8DE166FBFF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D29C828-B8EB-4F65-ABA2-8DE166FBFF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113DE87E-14BA-4362-A1C4-7CA2002191C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113DE87E-14BA-4362-A1C4-7CA2002191C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113DE87E-14BA-4362-A1C4-7CA2002191C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113DE87E-14BA-4362-A1C4-7CA2002191C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E70EAE-21FB-4866-9AA0-31CCB0335BF9}
+	EndGlobalSection
+EndGlobal
